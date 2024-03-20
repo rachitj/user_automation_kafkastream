@@ -1,0 +1,5 @@
+*.config
+launch.json
+log.txt
+*.env
+*.pyc
