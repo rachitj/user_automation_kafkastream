@@ -1,0 +1,12 @@
+
+
+name: venv_userautomation  # Name of the Conda environment
+
+channels:  # List of Conda channels to search for packages
+  - defaults
+  - conda-forge
+
+dependencies:  # List of packages to be installed
+  - python=3.11.7
+  - conda=24.1.2
+  - pip=23.3.1
