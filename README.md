@@ -1,23 +1,32 @@
 
 
-Create environment: conda env create -f environment.yml
+Create environment: 
+conda env create -f environment.yml
 
 Activate environment: conda activate venv_userautomation
 
-Remove environment: conda env remove --name venv_userautomation
+Remove environment: 
+conda env remove --name venv_userautomation
 
-Deactivate environment: conda deactivate
+Deactivate environment: 
+conda deactivate
 
-Check environment:  conda info --envs
+Check environment:  
+conda info --envs
 
 conda activate venv_userautomation
 
+Install packages from requirements.txt fle
+pip install -r requirements.txt
 
 Update environment: 
 conda env update --name venv_userautomation --file environment.yml
 
 
 conda env export > environment.yml
+
+Update requirements,txt file from environment
+pip freeze > requirements.txt
 
 
 
